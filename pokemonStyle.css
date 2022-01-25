@@ -1,0 +1,124 @@
+.main
+{
+    background-image: linear-gradient(to right,#8CA3AB , #D0A9C2);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 10px 50px;
+    flex-wrap: wrap;
+}
+
+.main div
+{
+   
+    border-radius: 10%;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+    align-items:stretch;
+   
+}
+
+
+.main .bulbasaur, .main .ivisaur, .main .venusaur
+{
+    background-color: #91C6A3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.main .charmander, .main .charmeleon
+{
+    background-color: #FFE4DF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+   
+}
+
+.main .charizard
+{
+    background-color: #CDCDCD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main .squirtle, .main .wartortle, .main .blastoise
+{
+    background-color: #C0D4DF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main .caterpie
+{
+    background-color: #DFBC8D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+
+.main * .circulo
+{
+    height: 800px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #FBF8F3;
+}
+
+.main * .circulo img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.main * .title
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-content: flex-end;
+}
+
+.main * .subtitle
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+
+  
+       
