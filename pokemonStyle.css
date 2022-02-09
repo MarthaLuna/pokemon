@@ -24,7 +24,7 @@
 }
 
 
-.main .bulbasaur, .main .ivisaur, .main .venusaur
+.main .pokemon_tipo1
 {
     background-color: #91C6A3;
     display: flex;
@@ -35,7 +35,7 @@
     
 }
 
-.main .charmander, .main .charmeleon
+.main .pokemon_tipo2
 {
     background-color: #FFE4DF;
     display: flex;
@@ -58,7 +58,7 @@
     margin-bottom: 20px;
 }
 
-.main .squirtle, .main .wartortle, .main .blastoise
+.main .pokemon_tipo3
 {
     background-color: #C0D4DF;
     display: flex;
